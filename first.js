@@ -32,3 +32,7 @@ button.addEventListener('click',generate);
 
 const deleteButton=document.querySelector('#cardDelete');
 deleteButton.addEventListener('click',remove);
+
+console.log(name);
+console.log(age);
+console.log(balance);
