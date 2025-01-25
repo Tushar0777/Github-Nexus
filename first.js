@@ -32,3 +32,8 @@ button.addEventListener('click',generate);
 
 const deleteButton=document.querySelector('#cardDelete');
 deleteButton.addEventListener('click',remove);
+
+
+console.log(`name is ${name}`);
+console.log(`age is ${age}`);
+console.log(`account balance is ${balance}`);
