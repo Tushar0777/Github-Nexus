@@ -1,0 +1,24 @@
+
+  button{
+    border: 1px solid #ccc;
+    background-color: red;
+    color: white;
+
+  }
+  #container {
+    display: flex;       /* Aligns children (cards) in a row */
+    flex-wrap: wrap;     /* Ensures the cards wrap to the next line if there's not enough space */
+    gap: 10px;           /* Optional: Adds space between cards */
+}
+.card {
+    width: 150px;        /* Width of each card */
+    height: 150px;       /* Height of each card */
+    background-color: #f0f0f0; /* Just for visibility */
+    padding: 20px;       /* Padding inside each card */
+    border-radius: 8px;  /* Optional: rounded corners for cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: adds shadow to cards */
+    padding: 20px;
+    margin: 10px;
+}
+
+  

@@ -9,8 +9,26 @@ function updateBalance(){
 console.log(balance)
 
 
-const ele=document.getElementById('container');
-const card=document.createElement('card');
-const heading=document.createElement('p').innerHTML='this is a card';
-card.appendChild(heading);
-ele.appendChild(card);
+
+function generate(){
+    const ele=document.getElementById('container');
+    const card=document.createElement('div');
+    card.className='card';
+    const heading=document.createElement('p')
+    heading.textContent='this is a card';
+    card.appendChild(heading);
+    ele.appendChild(card);
+}
+function remove(){
+    const ele=document.getElementById('container');
+    if(ele.lastElementChild){
+        ele.removeChild(ele.lastElementChild);
+    }
+}
+
+
+const button=document.querySelector('#cardGenrator');
+button.addEventListener('click',generate);
+
+const deleteButton=document.querySelector('#cardDelete');
+deleteButton.addEventListener('click',remove);
