@@ -1,3 +1,4 @@
+git config --global user.name "Tushar"
 # git checkout -b "feature"
 this will create a new branch named feature 
 
